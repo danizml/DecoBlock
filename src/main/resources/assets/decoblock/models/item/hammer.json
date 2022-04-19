@@ -1,0 +1,97 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "decoblock:item/hammer",
+		"particle": "decoblock:item/hammer"
+	},
+	"elements": [
+		{
+			"name": "A-1",
+			"from": [7.25, 0, 7.25],
+			"to": [8.75, 9, 8.75],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 9], "texture": "#0"},
+				"east": {"uv": [2, 0, 4, 9], "texture": "#0"},
+				"south": {"uv": [4, 0, 6, 9], "texture": "#0"},
+				"west": {"uv": [6, 0, 8, 9], "texture": "#0"},
+				"up": {"uv": [2, 14, 0, 12], "texture": "#0"},
+				"down": {"uv": [4, 12, 2, 14], "texture": "#0"}
+			}
+		},
+		{
+			"name": "B-1",
+			"from": [5, 9, 6.5],
+			"to": [11, 12, 9.5],
+			"faces": {
+				"north": {"uv": [8, 0, 14, 3], "texture": "#0"},
+				"east": {"uv": [6, 9, 9, 12], "texture": "#0"},
+				"south": {"uv": [8, 3, 14, 6], "texture": "#0"},
+				"west": {"uv": [9, 9, 12, 12], "texture": "#0"},
+				"up": {"uv": [14, 9, 8, 6], "texture": "#0"},
+				"down": {"uv": [6, 9, 0, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0.05, -90, 0],
+			"translation": [0, 3, 1.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.75, 4, 0]
+		},
+		"ground": {
+			"rotation": [90, 0, 90],
+			"translation": [-1.5, -1.75, 0]
+		},
+		"gui": {
+			"rotation": [-48.78, -26.05, -50.1],
+			"translation": [0.75, 1.25, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"rotation": [0, 0, 32],
+			"translation": [0, -12.5, 5]
+		},
+		"fixed": {
+			"translation": [0, 1.75, -2.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "Main",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "Head",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [0]
+						},
+						{
+							"name": "Rock",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [1]
+						}
+					]
+				}
+			]
+		}
+	]
+}

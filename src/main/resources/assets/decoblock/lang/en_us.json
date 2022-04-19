@@ -1,0 +1,12 @@
+{
+    "block.decoblock.oak_chair": "Oak Chair",
+    "block.decoblock.dark_oak_chair": "Dark Oak Chair",
+    "block.decoblock.laptop_block": "Laptop",
+    "block.decoblock.upgradedanvil_block": "Upgraded Anvil",
+    "item.decoblock.decocomponent": "Deco Component",
+    "item.decoblock.hammer": "Hammer",
+    "item.decoblock.mountainrange": "Mountain Range",
+    "itemGroup.DecoBlock": "DecoBlock",
+    "block.decoblock.plate_block": "Plate",
+    "block.decoblock.footplate_block": "Foot Plate"
+}

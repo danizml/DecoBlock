@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "decoblock:block/footplate_block",
+            "y": 0
+        },
+        "facing=east": {
+            "model": "decoblock:block/footplate_block",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "decoblock:block/footplate_block",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "decoblock:block/footplate_block",
+            "y": 270
+        }
+    }
+}
