@@ -1,0 +1,24 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    " 2 ",
+    " 2 "
+  ],
+
+  "key": {
+    "0": {
+      "tag": "forge:stone"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "decoblock:hammer"
+  }
+}
