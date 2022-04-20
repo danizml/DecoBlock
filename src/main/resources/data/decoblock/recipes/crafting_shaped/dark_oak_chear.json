@@ -1,0 +1,24 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1  ",
+    "100",
+    "2 2"
+  ],
+
+  "key": {
+    "0": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "1": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "decoblock:dark_oak_chair"
+  }
+}
