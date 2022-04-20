@@ -15,7 +15,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '1.0.0.2'
+version = '1.0.0.3'
 group = 'com.danizml.decoblock'
 archivesBaseName = 'decoblock'
 
@@ -83,10 +83,17 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven {
+        name 'Progwml6 maven'
+        url 'https://dvs1.progwml6.com/files/maven'
+    }
 }
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.0.46'
+
+    compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.0.+:api")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.0.+")
 }
 
 jar {
