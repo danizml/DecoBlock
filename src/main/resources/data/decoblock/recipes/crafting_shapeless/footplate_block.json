@@ -1,0 +1,15 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "decoblock:plate_block"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    }
+  ],
+  "result": {
+    "item": "decoblock:footplate_block"
+  }
+}
