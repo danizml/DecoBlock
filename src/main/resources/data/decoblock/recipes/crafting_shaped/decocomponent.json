@@ -1,0 +1,31 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    "324",
+    "000"
+  ],
+
+  "key": {
+    "0": {
+      "item": "minecraft:oak_slab"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:chest"
+    },
+    "3": {
+      "item": "decoblock:saw"
+    },
+    "4": {
+      "item": "decoblock:hammer"
+    }
+  },
+  "result": {
+    "item": "decoblock:decocomponent",
+    "count": 16
+  }
+}
