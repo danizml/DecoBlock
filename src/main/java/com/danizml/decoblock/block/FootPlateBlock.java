@@ -25,7 +25,7 @@ public class FootPlateBlock extends DecoBlockHorizontalWaterloggedBlock {
     }
 
     private ImmutableMap<BlockState, VoxelShape> generateShapes(ImmutableList<BlockState> states) {
-        final VoxelShape[] BASE = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(3, 3, 3, 14.5, 2, 14.5), Direction.SOUTH));
+        final VoxelShape[] BASE = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(2, 0, 1.5, 14.5, 1, 14.5), Direction.SOUTH));
         ImmutableMap.Builder<BlockState, VoxelShape> builder = new ImmutableMap.Builder<>();
 
         for(BlockState state : states) {
