@@ -17,7 +17,7 @@ public class ModItems {
             new Item(new Item.Properties().tab(DecoBlockTab.DECOBLOCK)));
     public static final RegistryObject<Item> HAMMER = register("hammer",() ->
             new Item(new Item.Properties().tab(DecoBlockTab.DECOBLOCK)));
-    public static final RegistryObject<Item> MOUNTAINRANGE = register("mountainrange",() ->
+    public static final RegistryObject<Item> SAW = register("saw",() ->
             new Item(new Item.Properties().tab(DecoBlockTab.DECOBLOCK)));
 
     private static RegistryObject<Item> register(String name, Supplier<Item> item) {
