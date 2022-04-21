@@ -1,0 +1,15 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "decoblock:hammer"
+    },
+    {
+      "item": "minecraft:anvil"
+    }
+  ],
+  "result": {
+    "item": "decoblock:upgradedanvil_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "decoblock",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz_slab"
+    }
+  ],
+  "result": {
+    "item": "decoblock:plate_block",
+    "count": 4
+  }
+}
