@@ -6,10 +6,8 @@ import java.util.function.Supplier;
 import javax.annotation.Nullable;
 
 import com.danizml.decoblock.DecoBlock;
-import com.danizml.decoblock.block.ChairBlock;
-import com.danizml.decoblock.block.LaptopBlock;
+import com.danizml.decoblock.block.*;
 
-import com.danizml.decoblock.block.UpgradedAnvilBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -27,8 +25,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> CHAIR_DARK_OAK = register("dark_oak_chair", () -> new ChairBlock(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
     public static final RegistryObject<Block> LAPTOP_BLOCK = register("laptop_block", () -> new LaptopBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> UPGRADEDANVIL_BLOCK = register("upgradedanvil_block", () -> new UpgradedAnvilBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
-    public static final RegistryObject<Block> PLATE = register("plate_block", () -> new UpgradedAnvilBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
-    public static final RegistryObject<Block> FOOTPLATE = register("footplate_block", () -> new UpgradedAnvilBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+    public static final RegistryObject<Block> PLATE_BLOCK = register("plate_block", () -> new PlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+    public static final RegistryObject<Block> FOOTPLATE_BLOCK = register("footplate_block", () -> new FootPlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
    
     private static RegistryObject<Block> register(String name, Supplier<Block> block) {
         return register(name, block, new Item.Properties().tab(DecoBlockTab.DECOBLOCK));
