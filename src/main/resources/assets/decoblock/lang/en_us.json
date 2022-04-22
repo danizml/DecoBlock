@@ -8,5 +8,6 @@
     "item.decoblock.saw": "saw",
     "itemGroup.DecoBlock": "DecoBlock",
     "block.decoblock.plate_block": "Plate",
-    "block.decoblock.footplate_block": "Foot Plate"
+    "block.decoblock.footplate_block": "Foot Plate",
+    "block.decoblock.decobench_block": "DecoBench"
 }

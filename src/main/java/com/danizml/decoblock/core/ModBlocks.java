@@ -9,7 +9,6 @@ import com.danizml.decoblock.DecoBlock;
 import com.danizml.decoblock.block.*;
 
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -27,6 +26,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> UPGRADEDANVIL_BLOCK = register("upgradedanvil_block", () -> new UpgradedAnvilBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> PLATE_BLOCK = register("plate_block", () -> new PlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
     public static final RegistryObject<Block> FOOTPLATE_BLOCK = register("footplate_block", () -> new FootPlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+    public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
    
     private static RegistryObject<Block> register(String name, Supplier<Block> block) {
         return register(name, block, new Item.Properties().tab(DecoBlockTab.DECOBLOCK));
