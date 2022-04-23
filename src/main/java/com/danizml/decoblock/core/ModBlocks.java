@@ -20,13 +20,30 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModBlocks {
     public static final DeferredRegister<Block> REGISTER = DeferredRegister.create(ForgeRegistries.BLOCKS, DecoBlock.MOD_ID);
 
+    //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     public static final RegistryObject<Block> CHAIR_OAK = register("oak_chair", () -> new ChairBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
     public static final RegistryObject<Block> CHAIR_DARK_OAK = register("dark_oak_chair", () -> new ChairBlock(Block.Properties.copy(Blocks.DARK_OAK_PLANKS)));
+
+    //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     public static final RegistryObject<Block> LAPTOP_BLOCK = register("laptop_block", () -> new LaptopBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> UPGRADEDANVIL_BLOCK = register("upgradedanvil_block", () -> new UpgradedAnvilBlock(Block.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> PLATE_BLOCK = register("plate_block", () -> new PlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
     public static final RegistryObject<Block> FOOTPLATE_BLOCK = register("footplate_block", () -> new FootPlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
-    public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+
+    public static final RegistryObject<Block> SMALLLOG_BLOCK = register("smalllog_block", () -> new SmallLogBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+    public static final RegistryObject<Block> CRACKEDLOG_BLOCK = register("crackedlog_block.json", () -> new CrackedLogBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
+
+    //-----------------------------------------------------------------------------Figures------------------------------------------------------------------------------------
+
+    public static final RegistryObject<Block> MINICREEPER_BLOCK = register("minicreeper_block", () -> new MiniCreeperBlock(Block.Properties.copy(Blocks.GREEN_WOOL)));
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------------------------------
    
     private static RegistryObject<Block> register(String name, Supplier<Block> block) {
         return register(name, block, new Item.Properties().tab(DecoBlockTab.DECOBLOCK));
