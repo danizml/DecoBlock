@@ -1,0 +1,77 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "decoblock:block/oak_log",
+		"2": "decoblock:block/block/oak_log_top",
+		"particle": "decoblock:block/oak_log"
+	},
+	"elements": [
+		{
+			"name": "A-1",
+			"from": [5, 0, 2],
+			"to": [11, 6, 14],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 6], "texture": "#2"},
+				"east": {"uv": [0, 0, 12, 6], "texture": "#0"},
+				"south": {"uv": [0, 0, 6, 6], "texture": "#2"},
+				"west": {"uv": [0, 0, 12, 6], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 12], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 12], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [108.27, -88.39, 40.73],
+			"translation": [0, 2.75, 1.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 2.75, -0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 3, 0]
+		},
+		"ground": {
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [21.5, -42.75, -8.75],
+			"translation": [0.5, 3.75, 0]
+		},
+		"head": {
+			"translation": [0, 14.75, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -9]
+		}
+	},
+	"groups": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"nbt": "{}",
+			"armAnimationEnabled": false,
+			"children": [
+				{
+					"name": "Main",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"nbt": "{}",
+					"armAnimationEnabled": false,
+					"children": [
+						{
+							"name": "base",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"nbt": "{}",
+							"armAnimationEnabled": false,
+							"children": [0]
+						}
+					]
+				}
+			]
+		}
+	]
+}
