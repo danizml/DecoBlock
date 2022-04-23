@@ -32,12 +32,14 @@ public class ModBlocks {
     public static final RegistryObject<Block> PLATE_BLOCK = register("plate_block", () -> new PlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
     public static final RegistryObject<Block> FOOTPLATE_BLOCK = register("footplate_block", () -> new FootPlateBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
 
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
     public static final RegistryObject<Block> SMALLLOG_BLOCK = register("smalllog_block", () -> new SmallLogBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
-    public static final RegistryObject<Block> CRACKEDLOG_BLOCK = register("crackedlog_block.json", () -> new CrackedLogBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
+    public static final RegistryObject<Block> CRACKEDLOG_BLOCK = register("crackedlog_block", () -> new CrackedLogBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
 
     //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-    public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.OAK_PLANKS)));
+    public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
 
     //-----------------------------------------------------------------------------Figures------------------------------------------------------------------------------------
 

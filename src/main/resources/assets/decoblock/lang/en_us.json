@@ -9,5 +9,8 @@
     "itemGroup.DecoBlock": "DecoBlock",
     "block.decoblock.plate_block": "Plate",
     "block.decoblock.footplate_block": "Foot Plate",
-    "block.decoblock.decobench_block": "DecoBench"
+    "block.decoblock.decobench_block": "DecoBench",
+    "block.decoblock.crackedlog_block": "Cracked Log",
+    "block.decoblock.minicreeper_block": "Mini Creeper",
+    "block.decoblock.smalllog_block": "Small Log"
 }

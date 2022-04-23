@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "decoblock:block/smalllog_block",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "decoblock:block/smalllog_block",
+            "y": 270
+        },
+        "facing=south": {
+            "model": "decoblock:block/smalllog_block",
+            "y": 0
+        },
+        "facing=west": {
+            "model": "decoblock:block/smalllog_block",
+            "y": 90
+        }
+    }
+}

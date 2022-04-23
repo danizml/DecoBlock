@@ -1,10 +1,10 @@
 {
 	"credit": "Made by danizml",
 	"textures": {
-		"0": "decoblock:textures/block/oak_log",
-		"1": "decoblock:textures/block/oak_log_top",
-		"2": "decoblock:textures/block/anvil",
-		"particle": "decoblock:textures/block/oak_log"
+		"0": "decoblock:block/oak_log",
+		"1": "decoblock:block/oak_log_top",
+		"2": "decoblock:block/anvil",
+		"particle": "decoblock:block/oak_log"
 	},
 	"elements": [
 		{

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "decoblock:block/crackedlog_block",
+            "y": 180
+        },
+        "facing=east": {
+            "model": "decoblock:block/crackedlog_block",
+            "y": 270
+        },
+        "facing=south": {
+            "model": "decoblock:block/crackedlog_block",
+            "y": 0
+        },
+        "facing=west": {
+            "model": "decoblock:block/crackedlog_block",
+            "y": 90
+        }
+    }
+}
