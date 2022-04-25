@@ -12,5 +12,7 @@
     "block.decoblock.decobench_block": "DecoBench",
     "block.decoblock.crackedlog_block": "Cracked Log",
     "block.decoblock.minicreeper_block": "Mini Creeper",
-    "block.decoblock.smalllog_block": "Small Log"
+    "block.decoblock.smalllog_block": "Small Log",
+    "block.decoblock.cone_block": "Cone",
+    "block.decoblock.fencecone_block": "Fence Cone"
 }
