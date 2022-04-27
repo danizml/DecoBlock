@@ -42,6 +42,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DECOBENCH_BLOCK = register("decobench_block", () -> new DecoBenchBlock(Block.Properties.copy(Blocks.GLASS_PANE)));
     public static final RegistryObject<Block> CONE_BLOCK = register("cone_block", () -> new ConeBlock(Block.Properties.copy(Blocks.GREEN_WOOL)));
     public static final RegistryObject<Block> FENCECONE_BLOCK = register("fencecone_block", () -> new FenceConeBlock(Block.Properties.copy(Blocks.GREEN_WOOL)));
+    public static final RegistryObject<Block> WOODENPLATES_BLOCK = register("woodenplates_block", () -> new WoodenPlatesBlock(Block.Properties.copy(Blocks.GREEN_WOOL)));
+    public static final RegistryObject<Block> DIHEDRAL_BLOCK = register("dihedral_block", () -> new DihedralBlock(Block.Properties.copy(Blocks.GREEN_WOOL)));
 
     //-----------------------------------------------------------------------------Figures------------------------------------------------------------------------------------
 

@@ -14,5 +14,7 @@
     "block.decoblock.minicreeper_block": "Mini Creeper",
     "block.decoblock.smalllog_block": "Small Log",
     "block.decoblock.cone_block": "Cone",
-    "block.decoblock.fencecone_block": "Fence Cone"
+    "block.decoblock.fencecone_block": "Fence Cone",
+    "block.decoblock.dihedral_block": "Dehedral",
+    "block.decoblock.woodenplates_block": "Wooden Plates"
 }
